@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* css header */
+
 header{
     height: 35rem;
     background-color: #00008b;
@@ -61,6 +63,8 @@ section.bottom{
     margin: 3rem auto;
 }
 
+/* css main */
+
 div.flex-item-main{
     height: 30rem;
     border: .2rem dashed black;
@@ -96,6 +100,8 @@ div#end-main{
     margin: 0 auto;
 }
 
+/* css footer */
+
 footer{
     background-color: #23272a;
 }
@@ -107,12 +113,44 @@ section.foot-section{
 
 div#red{
     background-color: #f08080;
-    width: 75%;
+    width: 30%;
     border: .2rem dashed black;
 }
 
 div.lightblue{
     background-color: #20b2aa;
-    width: 18.75%;
+    width: 17.5%;
     border: .2rem dashed white;
+}
+
+div#foot-end{
+    background-color: #7fffd4;
+    height: 6rem;
+    width: 65%;
+    margin: 2rem auto;
+}
+
+span.foot-item{
+    background-color: #ffb6c1;
+    border: .2rem dashed black;
+}
+
+div.foot-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.foot-flex-item{
+    width: 50%;
+}
+
+div#button{
+    text-align: end;
+}
+
+span.foot-item{
+    background-color: #ffb6c1;
+    border: .2rem dashed black;
+    padding: .5rem;
 }
