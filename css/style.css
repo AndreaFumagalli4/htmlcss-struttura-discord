@@ -81,7 +81,7 @@ div.img{
 
 div.content{
     background-color: #ffc0cb;
-    width: 30%;
+    width: 35%;
 }
 
 section.main-section{
@@ -112,7 +112,7 @@ footer{
 
 section.foot-section{
     height: 35rem;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 div#red{
