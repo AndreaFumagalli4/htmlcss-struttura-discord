@@ -12,7 +12,8 @@ header{
 
 section.top{
     background-color: #add8e6;
-    height: 10%;
+    height: 15%;
+    padding: .2rem;
 }
 
 div.flex-container{
@@ -76,5 +77,13 @@ div.content{
 }
 
 section.main-section{
-    margin-top: 4rem;
+    padding: 3rem 0;
+}
+
+div#reverse{
+    flex-direction: row-reverse;
+}
+
+section.bg-grey{
+    background-color: #d3d3d3;
 }
