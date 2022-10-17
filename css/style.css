@@ -20,14 +20,14 @@ div.flex-container{
     width: 65%;
 }
 
-div.header-container{
+div.container{
     justify-content: center;
     margin: 1rem auto;
 }
 
 div.flex-item-header{
     background-color: #daa520;
-    border: 1px dashed black;
+    border: .2rem dashed black;
     padding: .3rem;
 }
 
@@ -54,7 +54,7 @@ div#login{
 
 section.bottom{
     background-color: #ee82ee;
-    border: 1px dashed black;
+    border: .2rem dashed black;
     height: 20rem;
     width: 48%;
     margin: 3rem auto;
@@ -62,8 +62,19 @@ section.bottom{
 
 div.flex-item-main{
     height: 30rem;
+    border: .2rem dashed black;
 }
 
 div.img{
-    
+    background-color: #1e90ff;
+    width: 65%;
+}
+
+div.content{
+    background-color: #ffc0cb;
+    width: 30%;
+}
+
+section.main-section{
+    margin-top: 4rem;
 }
