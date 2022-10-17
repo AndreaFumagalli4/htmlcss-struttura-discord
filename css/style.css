@@ -6,7 +6,7 @@
 }
 
 header{
-    height: 30rem;
+    height: 35rem;
     background-color: #00008b;
 }
 
@@ -86,4 +86,12 @@ div#reverse{
 
 section.bg-grey{
     background-color: #d3d3d3;
+}
+
+div#end-main{
+    height: 40rem;
+    width: 65%;
+    background-color: #228b22;
+    border: .2rem dashed black;
+    margin: 0 auto;
 }
