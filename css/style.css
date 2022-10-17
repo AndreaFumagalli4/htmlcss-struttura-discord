@@ -21,14 +21,11 @@ section.top{
 .flex-container{
     display: flex;
     width: 65%;
-}
-
-.container{
     justify-content: center;
     margin: 0 auto;
 }
 
-div.margin{
+div#margin{
     margin-top: 1rem;
 }
 
@@ -38,20 +35,19 @@ div.flex-item-header{
     padding: .3rem;
 }
 
-#logo,
-#login{
+div.fb{
     flex-basis: 20%;
 }
 
-#link{
+#fb-link{
     flex-basis: 60%;
 }
 
-div#link>ul{
+div#fb-link>ul{
     text-align: center;
 }
 
-ul>li{
+ul#head-link>li{
     display: inline-block;
 }
 
@@ -59,7 +55,7 @@ div#login{
     text-align: end;
 }
 
-section.bottom{
+section#bottom{
     background-color: #ee82ee;
     border: .2rem dashed black;
     height: 20rem;
@@ -110,7 +106,7 @@ footer{
     background-color: #23272a;
 }
 
-section.foot-section{
+section#foot-section{
     height: 35rem;
     padding: 1rem 0;
 }
@@ -127,19 +123,11 @@ div.lightblue{
     border: .2rem dashed white;
 }
 
-div#foot-end{
+div#foot-flex-end{
     background-color: #7fffd4;
     height: 6rem;
     width: 65%;
-    margin: 2rem auto;
-}
-
-span.foot-item{
-    background-color: #ffb6c1;
-    border: .2rem dashed black;
-}
-
-div.foot-flex{
+    margin: 1rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
