@@ -15,14 +15,17 @@ section.top{
     height: 10%;
 }
 
-.flex-container{
+div.flex-container{
     display: flex;
-    justify-content: center;
     width: 65%;
+}
+
+div.header-container{
+    justify-content: center;
     margin: 1rem auto;
 }
 
-.flex-item{
+div.flex-item-header{
     background-color: #daa520;
     border: 1px dashed black;
     padding: .3rem;
@@ -55,4 +58,12 @@ section.bottom{
     height: 20rem;
     width: 48%;
     margin: 3rem auto;
+}
+
+div.flex-item-main{
+    height: 30rem;
+}
+
+div.img{
+    
 }
