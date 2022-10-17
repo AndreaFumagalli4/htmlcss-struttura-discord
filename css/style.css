@@ -25,7 +25,11 @@ section.top{
 
 .container{
     justify-content: center;
-    margin: 1rem auto;
+    margin: 0 auto;
+}
+
+div.margin{
+    margin-top: 1rem;
 }
 
 div.flex-item-header{
