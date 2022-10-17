@@ -16,12 +16,12 @@ section.top{
     padding: .2rem;
 }
 
-div.flex-container{
+.flex-container{
     display: flex;
     width: 65%;
 }
 
-div.container{
+.container{
     justify-content: center;
     margin: 1rem auto;
 }
@@ -94,4 +94,25 @@ div#end-main{
     background-color: #228b22;
     border: .2rem dashed black;
     margin: 0 auto;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+section.foot-section{
+    height: 35rem;
+    padding: 1rem;
+}
+
+div#red{
+    background-color: #f08080;
+    width: 75%;
+    border: .2rem dashed black;
+}
+
+div.lightblue{
+    background-color: #20b2aa;
+    width: 18.75%;
+    border: .2rem dashed white;
 }
